@@ -1,0 +1,1113 @@
+{
+  "data": [
+    {
+      "entities": {
+        "urls": [
+          {
+            "start": 57,
+            "end": 80,
+            "url": "https://t.co/0DvG8mgaCd",
+            "expanded_url": "https://twitter.com/efritaldy/status/1638195339902750720/photo/1",
+            "display_url": "pic.twitter.com/0DvG8mgaCd",
+            "media_key": "3_1638195325809881092"
+          }
+        ],
+        "annotations": [
+          {
+            "start": 0,
+            "end": 11,
+            "probability": 0.7582,
+            "type": "Person",
+            "normalized_text": "Omar Maxwell"
+          },
+          {
+            "start": 13,
+            "end": 24,
+            "probability": 0.4917,
+            "type": "Person",
+            "normalized_text": "Hilda Milton"
+          },
+          {
+            "start": 37,
+            "end": 52,
+            "probability": 0.8298,
+            "type": "Person",
+            "normalized_text": "Darnell Ackerman"
+          }
+        ],
+        "hashtags": [
+          {
+            "start": 26,
+            "end": 32,
+            "tag": "\u6606\u660eSPA"
+          },
+          {
+            "start": 33,
+            "end": 36,
+            "tag": "\u6606\u660e"
+          }
+        ]
+      },
+      "id": "1638790078226116608",
+      "lang": "en",
+      "conversation_id": "1638790078226116608",
+      "edit_history_tweet_ids": [
+        "1638790078226116608"
+      ],
+      "text": "Omar Maxwell Hilda Milton #\u6606\u660eSPA #\u6606\u660e Darnell Ackerman(n) https://t.co/0DvG8mgaCd",
+      "author_id": "1600206697024393235",
+      "created_at": "2023-03-23T06:29:36.000Z"
+    },
+    {
+      "entities": {
+        "mentions": [
+          {
+            "start": 3,
+            "end": 14,
+            "username": "CaddictsCw",
+            "id": "1382146937864921089"
+          }
+        ],
+        "urls": [
+          {
+            "start": 88,
+            "end": 111,
+            "url": "https://t.co/dzDFjWt6gY",
+            "expanded_url": "https://twitter.com/CaddictsCw/status/1638780716673818626/photo/1",
+            "display_url": "pic.twitter.com/dzDFjWt6gY",
+            "media_key": "3_1638780704615190528"
+          }
+        ],
+        "annotations": [
+          {
+            "start": 73,
+            "end": 86,
+            "probability": 0.4454,
+            "type": "Other",
+            "normalized_text": "SilambarasanTR"
+          }
+        ],
+        "hashtags": [
+          {
+            "start": 72,
+            "end": 87,
+            "tag": "SilambarasanTR"
+          }
+        ]
+      },
+      "id": "1638790073687896065",
+      "lang": "en",
+      "conversation_id": "1638790073687896065",
+      "edit_history_tweet_ids": [
+        "1638790073687896065"
+      ],
+      "text": "RT @CaddictsCw: S I L A M B A R A S A N. T. R.\nHim in this bun look \ud83e\udee0\ud83e\udd75\n\n#SilambarasanTR https://t.co/dzDFjWt6gY",
+      "author_id": "3085823948",
+      "created_at": "2023-03-23T06:29:35.000Z"
+    },
+    {
+      "entities": {
+        "mentions": [
+          {
+            "start": 3,
+            "end": 11,
+            "username": "Tey_Zah",
+            "id": "1299844278273925122"
+          }
+        ],
+        "annotations": [
+          {
+            "start": 34,
+            "end": 37,
+            "probability": 0.6987,
+            "type": "Other",
+            "normalized_text": "Cher"
+          },
+          {
+            "start": 81,
+            "end": 84,
+            "probability": 0.7334,
+            "type": "Other",
+            "normalized_text": "Tang"
+          },
+          {
+            "start": 102,
+            "end": 108,
+            "probability": 0.7547,
+            "type": "Other",
+            "normalized_text": "Macaque"
+          }
+        ]
+      },
+      "id": "1638790073360723969",
+      "lang": "en",
+      "conversation_id": "1638790073360723969",
+      "edit_history_tweet_ids": [
+        "1638790073360723969"
+      ],
+      "text": "RT @Tey_Zah: hNn Based on an idea Cher n I had in dms abt the S3 Special,, where Tang goes n forgives Macaque for the whole thing w/ the Sa\u2026",
+      "author_id": "1336692866618327041",
+      "created_at": "2023-03-23T06:29:35.000Z"
+    },
+    {
+      "entities": {
+        "mentions": [
+          {
+            "start": 3,
+            "end": 12,
+            "username": "avalovve",
+            "id": "1638314485483188225"
+          }
+        ],
+        "hashtags": [
+          {
+            "start": 30,
+            "end": 35,
+            "tag": "nsfw"
+          },
+          {
+            "start": 36,
+            "end": 44,
+            "tag": "nsfwtwt"
+          }
+        ]
+      },
+      "id": "1638790072999763968",
+      "lang": "en",
+      "conversation_id": "1638790072999763968",
+      "edit_history_tweet_ids": [
+        "1638790072999763968"
+      ],
+      "text": "RT @avalovve: heyy I\u2019m new to #nsfw #nsfwtwt \n\n\u2729 19\n\u2729 she/her\n\u2729 hard/soft kinks\n\u2729 sub\n\n\u2661 n \u21bb to be moots https://t.co/cvPLqRsJBB",
+      "author_id": "839539466175987718",
+      "created_at": "2023-03-23T06:29:35.000Z"
+    },
+    {
+      "entities": {
+        "urls": [
+          {
+            "start": 83,
+            "end": 106,
+            "url": "https://t.co/56uELsbqTa",
+            "expanded_url": "https://twitter.com/SparksBrent/status/1636659087411933186/photo/3",
+            "display_url": "pic.twitter.com/56uELsbqTa",
+            "media_key": "3_1636659073201610763"
+          }
+        ],
+        "annotations": [
+          {
+            "start": 32,
+            "end": 37,
+            "probability": 0.3568,
+            "type": "Person",
+            "normalized_text": "Benson"
+          },
+          {
+            "start": 48,
+            "end": 59,
+            "probability": 0.6953,
+            "type": "Person",
+            "normalized_text": "Belinda Reed"
+          }
+        ],
+        "hashtags": [
+          {
+            "start": 108,
+            "end": 111,
+            "tag": "\u8dd1\u5206"
+          },
+          {
+            "start": 112,
+            "end": 115,
+            "tag": "\u5077\u60c5"
+          },
+          {
+            "start": 116,
+            "end": 119,
+            "tag": "\u7070\u4ea7"
+          },
+          {
+            "start": 120,
+            "end": 123,
+            "tag": "\u5f3a\u5978"
+          },
+          {
+            "start": 124,
+            "end": 127,
+            "tag": "\u8d5a\u94b1"
+          },
+          {
+            "start": 128,
+            "end": 131,
+            "tag": "\u719f\u5973"
+          }
+        ]
+      },
+      "id": "1638790072735772674",
+      "lang": "en",
+      "conversation_id": "1638790072735772674",
+      "edit_history_tweet_ids": [
+        "1638790072735772674"
+      ],
+      "text": "AR \n FD \\N 88 \\N EI \n QI \n GM \n Benson Hume and Belinda Reed live happily together https://t.co/56uELsbqTa \n#\u8dd1\u5206 #\u5077\u60c5 #\u7070\u4ea7 #\u5f3a\u5978 #\u8d5a\u94b1 #\u719f\u5973",
+      "author_id": "1680412609",
+      "created_at": "2023-03-23T06:29:35.000Z"
+    },
+    {
+      "entities": {
+        "urls": [
+          {
+            "start": 87,
+            "end": 110,
+            "url": "https://t.co/ckL7k4Rjg1",
+            "expanded_url": "https://twitter.com/SparksBrent/status/1636659087411933186/photo/3",
+            "display_url": "pic.twitter.com/ckL7k4Rjg1",
+            "media_key": "3_1636659073201610763"
+          }
+        ],
+        "annotations": [
+          {
+            "start": 32,
+            "end": 43,
+            "probability": 0.3492,
+            "type": "Person",
+            "normalized_text": "Truman Fanny"
+          },
+          {
+            "start": 49,
+            "end": 63,
+            "probability": 0.7479,
+            "type": "Person",
+            "normalized_text": "Diana Gladstone"
+          }
+        ],
+        "hashtags": [
+          {
+            "start": 112,
+            "end": 115,
+            "tag": "\u8dd1\u5206"
+          },
+          {
+            "start": 116,
+            "end": 121,
+            "tag": "\u8d5a\u94b1\u9879\u76ee"
+          },
+          {
+            "start": 122,
+            "end": 125,
+            "tag": "\u7070\u4ea7"
+          },
+          {
+            "start": 126,
+            "end": 131,
+            "tag": "\u7070\u4ea7\u9879\u76ee"
+          },
+          {
+            "start": 132,
+            "end": 135,
+            "tag": "\u8d5a\u94b1"
+          },
+          {
+            "start": 136,
+            "end": 139,
+            "tag": "\u610f\u6deb"
+          }
+        ]
+      },
+      "id": "1638790070768660480",
+      "lang": "en",
+      "conversation_id": "1638790070768660480",
+      "edit_history_tweet_ids": [
+        "1638790070768660480"
+      ],
+      "text": "AR \n FD \\N 88 \\N EI \n QI \n GM \n Truman Fanny and Diana Gladstone live happily together https://t.co/ckL7k4Rjg1 \n#\u8dd1\u5206 #\u8d5a\u94b1\u9879\u76ee #\u7070\u4ea7 #\u7070\u4ea7\u9879\u76ee #\u8d5a\u94b1 #\u610f\u6deb",
+      "author_id": "2155226168",
+      "created_at": "2023-03-23T06:29:34.000Z"
+    },
+    {
+      "entities": {
+        "urls": [
+          {
+            "start": 140,
+            "end": 163,
+            "url": "https://t.co/cfbJVkiQeT",
+            "expanded_url": "https://twitter.com/zucchetto_33/status/1636438726544064512/video/1",
+            "display_url": "pic.twitter.com/cfbJVkiQeT",
+            "media_key": "7_1636438539809492993"
+          }
+        ],
+        "hashtags": [
+          {
+            "start": 55,
+            "end": 59,
+            "tag": "O\u6ce1\u6ce1"
+          },
+          {
+            "start": 61,
+            "end": 64,
+            "tag": "\u53cd\u5dee"
+          },
+          {
+            "start": 65,
+            "end": 68,
+            "tag": "\u89c6\u9891"
+          },
+          {
+            "start": 69,
+            "end": 72,
+            "tag": "\u56db\u7231"
+          },
+          {
+            "start": 73,
+            "end": 77,
+            "tag": "\u7ea2\u7eff\u706f"
+          },
+          {
+            "start": 78,
+            "end": 81,
+            "tag": "\u76ef\u5c04"
+          },
+          {
+            "start": 82,
+            "end": 85,
+            "tag": "\u88f8\u804a"
+          },
+          {
+            "start": 87,
+            "end": 90,
+            "tag": "\u5a07\u5598"
+          },
+          {
+            "start": 91,
+            "end": 94,
+            "tag": "\u54c4\u7761"
+          },
+          {
+            "start": 95,
+            "end": 98,
+            "tag": "\u78d5\u70ae"
+          },
+          {
+            "start": 99,
+            "end": 102,
+            "tag": "\u6587\u7231"
+          },
+          {
+            "start": 103,
+            "end": 106,
+            "tag": "\u5973S"
+          },
+          {
+            "start": 107,
+            "end": 112,
+            "tag": "\u6e38\u620f\u966a\u73a9"
+          },
+          {
+            "start": 113,
+            "end": 116,
+            "tag": "\u8fde\u9ea6"
+          },
+          {
+            "start": 117,
+            "end": 120,
+            "tag": "\u5973m"
+          },
+          {
+            "start": 121,
+            "end": 124,
+            "tag": "\u5bf8\u6b62"
+          },
+          {
+            "start": 125,
+            "end": 128,
+            "tag": "\u966a\u73a9"
+          },
+          {
+            "start": 129,
+            "end": 134,
+            "tag": "\u989c\u8272\u966a\u73a9"
+          }
+        ]
+      },
+      "id": "1638790069787164672",
+      "lang": "en",
+      "conversation_id": "1638790069787164672",
+      "edit_history_tweet_ids": [
+        "1638790069787164672"
+      ],
+      "text": "n express was coming in. As I have said before, it but #O\u6ce1\u6ce1  #\u53cd\u5dee #\u89c6\u9891 #\u56db\u7231 #\u7ea2\u7eff\u706f #\u76ef\u5c04 #\u88f8\u804a  #\u5a07\u5598 #\u54c4\u7761 #\u78d5\u70ae #\u6587\u7231 #\u5973S #\u6e38\u620f\u966a\u73a9 #\u8fde\u9ea6 #\u5973m #\u5bf8\u6b62 #\u966a\u73a9 #\u989c\u8272\u966a\u73a9..    https://t.co/cfbJVkiQeT",
+      "author_id": "1708407450",
+      "created_at": "2023-03-23T06:29:34.000Z"
+    },
+    {
+      "entities": {
+        "mentions": [
+          {
+            "start": 3,
+            "end": 16,
+            "username": "TrRt37484495",
+            "id": "1552714383444381696"
+          }
+        ]
+      },
+      "id": "1638790067287375873",
+      "lang": "en",
+      "conversation_id": "1638790067287375873",
+      "edit_history_tweet_ids": [
+        "1638790067287375873"
+      ],
+      "text": "RT @TrRt37484495: If \ud83c\uddea\ud83c\uddf9, speaking as a country concerned and focused on the full implementation of lasting peace why don't withdraw the per\u2026",
+      "author_id": "1596393914310631424",
+      "created_at": "2023-03-23T06:29:33.000Z"
+    },
+    {
+      "entities": {
+        "mentions": [
+          {
+            "start": 3,
+            "end": 18,
+            "username": "NiftalemTsegay",
+            "id": "1607521447693500416"
+          }
+        ]
+      },
+      "id": "1638790066461106176",
+      "lang": "en",
+      "conversation_id": "1638790066461106176",
+      "edit_history_tweet_ids": [
+        "1638790066461106176"
+      ],
+      "text": "RT @NiftalemTsegay: If \ud83c\uddea\ud83c\uddf9, speaking as a country concerned and focused on z full implementation of lasting peace why don't withdraw z perpe\u2026",
+      "author_id": "1609855860771004420",
+      "created_at": "2023-03-23T06:29:33.000Z"
+    },
+    {
+      "entities": {
+        "mentions": [
+          {
+            "start": 3,
+            "end": 17,
+            "username": "haddis_simret",
+            "id": "1373609063779598344"
+          }
+        ],
+        "annotations": [
+          {
+            "start": 74,
+            "end": 79,
+            "probability": 0.8713,
+            "type": "Place",
+            "normalized_text": "Tigray"
+          },
+          {
+            "start": 143,
+            "end": 146,
+            "probability": 0.428,
+            "type": "Other",
+            "normalized_text": "Amha"
+          }
+        ]
+      },
+      "id": "1638790063701229568",
+      "lang": "en",
+      "conversation_id": "1638790063701229568",
+      "edit_history_tweet_ids": [
+        "1638790063701229568"
+      ],
+      "text": "RT @haddis_simret: Over 28 months, an estimated 600 k people have died in Tigray,&amp; more than 2 million have been displaced. \ud83c\uddea\ud83c\uddf9 n,\ud83c\uddea\ud83c\uddf7n,&amp; Amha\u2026",
+      "author_id": "1355435284184363009",
+      "created_at": "2023-03-23T06:29:33.000Z"
+    },
+    {
+      "entities": {
+        "mentions": [
+          {
+            "start": 3,
+            "end": 13,
+            "username": "chartsive",
+            "id": "1222628943863459843"
+          },
+          {
+            "start": 22,
+            "end": 34,
+            "username": "IVEstarship",
+            "id": "1402182579265048598"
+          }
+        ],
+        "urls": [
+          {
+            "start": 103,
+            "end": 126,
+            "url": "https://t.co/SLqX33vKqT",
+            "expanded_url": "https://n.news.naver.com/entertain/article/108/0003138541",
+            "display_url": "n.news.naver.com/entertain/arti\u2026",
+            "unwound_url": "https://n.news.naver.com/entertain/article/108/0003138541"
+          }
+        ],
+        "hashtags": [
+          {
+            "start": 128,
+            "end": 132,
+            "tag": "IVE"
+          },
+          {
+            "start": 133,
+            "end": 137,
+            "tag": "\uc544\uc774\ube0c"
+          }
+        ]
+      },
+      "id": "1638790059888369664",
+      "lang": "en",
+      "conversation_id": "1638790059888369664",
+      "edit_history_tweet_ids": [
+        "1638790059888369664"
+      ],
+      "text": "RT @chartsive: [INFO] @IVEstarship will guest tvN 'Amazing Saturday' as a full group on April 8th. \n\n\ud83d\udd17 https://t.co/SLqX33vKqT\n\n#IVE #\uc544\uc774\ube0c h\u2026",
+      "author_id": "1245803018760540160",
+      "created_at": "2023-03-23T06:29:32.000Z"
+    },
+    {
+      "entities": {
+        "urls": [
+          {
+            "start": 140,
+            "end": 163,
+            "url": "https://t.co/GIxCIPOkcj",
+            "expanded_url": "https://twitter.com/zucchetto_33/status/1636438726544064512/video/1",
+            "display_url": "pic.twitter.com/GIxCIPOkcj",
+            "media_key": "7_1636438539809492993"
+          }
+        ],
+        "hashtags": [
+          {
+            "start": 55,
+            "end": 59,
+            "tag": "O\u6ce1\u6ce1"
+          },
+          {
+            "start": 61,
+            "end": 64,
+            "tag": "\u53cd\u5dee"
+          },
+          {
+            "start": 65,
+            "end": 68,
+            "tag": "\u89c6\u9891"
+          },
+          {
+            "start": 69,
+            "end": 72,
+            "tag": "\u56db\u7231"
+          },
+          {
+            "start": 73,
+            "end": 77,
+            "tag": "\u7ea2\u7eff\u706f"
+          },
+          {
+            "start": 78,
+            "end": 81,
+            "tag": "\u76ef\u5c04"
+          },
+          {
+            "start": 82,
+            "end": 85,
+            "tag": "\u88f8\u804a"
+          },
+          {
+            "start": 87,
+            "end": 90,
+            "tag": "\u5a07\u5598"
+          },
+          {
+            "start": 91,
+            "end": 94,
+            "tag": "\u54c4\u7761"
+          },
+          {
+            "start": 95,
+            "end": 98,
+            "tag": "\u78d5\u70ae"
+          },
+          {
+            "start": 99,
+            "end": 102,
+            "tag": "\u6587\u7231"
+          },
+          {
+            "start": 103,
+            "end": 106,
+            "tag": "\u5973S"
+          },
+          {
+            "start": 107,
+            "end": 112,
+            "tag": "\u6e38\u620f\u966a\u73a9"
+          },
+          {
+            "start": 113,
+            "end": 116,
+            "tag": "\u8fde\u9ea6"
+          },
+          {
+            "start": 117,
+            "end": 120,
+            "tag": "\u5973m"
+          },
+          {
+            "start": 121,
+            "end": 124,
+            "tag": "\u5bf8\u6b62"
+          },
+          {
+            "start": 125,
+            "end": 128,
+            "tag": "\u966a\u73a9"
+          },
+          {
+            "start": 129,
+            "end": 134,
+            "tag": "\u989c\u8272\u966a\u73a9"
+          }
+        ]
+      },
+      "id": "1638790051034447877",
+      "lang": "en",
+      "conversation_id": "1638790051034447877",
+      "edit_history_tweet_ids": [
+        "1638790051034447877"
+      ],
+      "text": "n express was coming in. As I have said before, it but #O\u6ce1\u6ce1  #\u53cd\u5dee #\u89c6\u9891 #\u56db\u7231 #\u7ea2\u7eff\u706f #\u76ef\u5c04 #\u88f8\u804a  #\u5a07\u5598 #\u54c4\u7761 #\u78d5\u70ae #\u6587\u7231 #\u5973S #\u6e38\u620f\u966a\u73a9 #\u8fde\u9ea6 #\u5973m #\u5bf8\u6b62 #\u966a\u73a9 #\u989c\u8272\u966a\u73a9..    https://t.co/GIxCIPOkcj",
+      "author_id": "1101198340883169280",
+      "created_at": "2023-03-23T06:29:30.000Z"
+    },
+    {
+      "entities": {
+        "mentions": [
+          {
+            "start": 3,
+            "end": 10,
+            "username": "4metas",
+            "id": "1466688767083876353"
+          },
+          {
+            "start": 24,
+            "end": 35,
+            "username": "Quest3_xyz",
+            "id": "1328416991728848900"
+          }
+        ],
+        "annotations": [
+          {
+            "start": 16,
+            "end": 20,
+            "probability": 0.7399,
+            "type": "Other",
+            "normalized_text": "Metas"
+          }
+        ],
+        "hashtags": [
+          {
+            "start": 36,
+            "end": 46,
+            "tag": "Giveaways"
+          }
+        ]
+      },
+      "id": "1638790050262691840",
+      "lang": "en",
+      "conversation_id": "1638790050262691840",
+      "edit_history_tweet_ids": [
+        "1638790050262691840"
+      ],
+      "text": "RT @4metas: For Metas x @Quest3_xyz #Giveaways Event\n\nWill you be the lucky one?\n\n- 200 USDT for 10 lucky winners\n- 15 R card for 15 lucky\u2026",
+      "author_id": "1637047247190761474",
+      "created_at": "2023-03-23T06:29:29.000Z"
+    },
+    {
+      "entities": {
+        "urls": [
+          {
+            "start": 140,
+            "end": 163,
+            "url": "https://t.co/eVB3qqkI0O",
+            "expanded_url": "https://twitter.com/zucchetto_33/status/1636438726544064512/video/1",
+            "display_url": "pic.twitter.com/eVB3qqkI0O",
+            "media_key": "7_1636438539809492993"
+          }
+        ],
+        "hashtags": [
+          {
+            "start": 55,
+            "end": 59,
+            "tag": "O\u6ce1\u6ce1"
+          },
+          {
+            "start": 61,
+            "end": 64,
+            "tag": "\u53cd\u5dee"
+          },
+          {
+            "start": 65,
+            "end": 68,
+            "tag": "\u89c6\u9891"
+          },
+          {
+            "start": 69,
+            "end": 72,
+            "tag": "\u56db\u7231"
+          },
+          {
+            "start": 73,
+            "end": 77,
+            "tag": "\u7ea2\u7eff\u706f"
+          },
+          {
+            "start": 78,
+            "end": 81,
+            "tag": "\u76ef\u5c04"
+          },
+          {
+            "start": 82,
+            "end": 85,
+            "tag": "\u88f8\u804a"
+          },
+          {
+            "start": 87,
+            "end": 90,
+            "tag": "\u5a07\u5598"
+          },
+          {
+            "start": 91,
+            "end": 94,
+            "tag": "\u54c4\u7761"
+          },
+          {
+            "start": 95,
+            "end": 98,
+            "tag": "\u78d5\u70ae"
+          },
+          {
+            "start": 99,
+            "end": 102,
+            "tag": "\u6587\u7231"
+          },
+          {
+            "start": 103,
+            "end": 106,
+            "tag": "\u5973S"
+          },
+          {
+            "start": 107,
+            "end": 112,
+            "tag": "\u6e38\u620f\u966a\u73a9"
+          },
+          {
+            "start": 113,
+            "end": 116,
+            "tag": "\u8fde\u9ea6"
+          },
+          {
+            "start": 117,
+            "end": 120,
+            "tag": "\u5973m"
+          },
+          {
+            "start": 121,
+            "end": 124,
+            "tag": "\u5bf8\u6b62"
+          },
+          {
+            "start": 125,
+            "end": 128,
+            "tag": "\u966a\u73a9"
+          },
+          {
+            "start": 129,
+            "end": 134,
+            "tag": "\u989c\u8272\u966a\u73a9"
+          }
+        ]
+      },
+      "id": "1638790048543051779",
+      "lang": "en",
+      "conversation_id": "1638790048543051779",
+      "edit_history_tweet_ids": [
+        "1638790048543051779"
+      ],
+      "text": "n express was coming in. As I have said before, it but #O\u6ce1\u6ce1  #\u53cd\u5dee #\u89c6\u9891 #\u56db\u7231 #\u7ea2\u7eff\u706f #\u76ef\u5c04 #\u88f8\u804a  #\u5a07\u5598 #\u54c4\u7761 #\u78d5\u70ae #\u6587\u7231 #\u5973S #\u6e38\u620f\u966a\u73a9 #\u8fde\u9ea6 #\u5973m #\u5bf8\u6b62 #\u966a\u73a9 #\u989c\u8272\u966a\u73a9..    https://t.co/eVB3qqkI0O",
+      "author_id": "236463486",
+      "created_at": "2023-03-23T06:29:29.000Z"
+    },
+    {
+      "entities": {
+        "mentions": [
+          {
+            "start": 3,
+            "end": 12,
+            "username": "Eyerustg",
+            "id": "1513972381202665479"
+          }
+        ]
+      },
+      "id": "1638790048056238081",
+      "lang": "en",
+      "conversation_id": "1638790048056238081",
+      "edit_history_tweet_ids": [
+        "1638790048056238081"
+      ],
+      "text": "RT @Eyerustg: If \ud83c\uddea\ud83c\uddf9, speaking as a country concerned and focused on the full implementation of lasting peace why don't withdraw the perpetr\u2026",
+      "author_id": "1357775619669524487",
+      "created_at": "2023-03-23T06:29:29.000Z"
+    },
+    {
+      "entities": {
+        "urls": [
+          {
+            "start": 57,
+            "end": 80,
+            "url": "https://t.co/YGonWtpJrl",
+            "expanded_url": "https://twitter.com/ester_tiana/status/1638195641972330499/photo/1",
+            "display_url": "pic.twitter.com/YGonWtpJrl",
+            "media_key": "3_1638195624586911747"
+          }
+        ],
+        "annotations": [
+          {
+            "start": 0,
+            "end": 13,
+            "probability": 0.7931,
+            "type": "Person",
+            "normalized_text": "Hazel Ackerman"
+          },
+          {
+            "start": 45,
+            "end": 55,
+            "probability": 0.6374,
+            "type": "Person",
+            "normalized_text": "Elmer Ralph"
+          }
+        ],
+        "hashtags": [
+          {
+            "start": 35,
+            "end": 40,
+            "tag": "\u5408\u80a5\u8d44\u6e90"
+          },
+          {
+            "start": 41,
+            "end": 44,
+            "tag": "\u5408\u80a5"
+          }
+        ]
+      },
+      "id": "1638790046592671744",
+      "lang": "en",
+      "conversation_id": "1638790046592671744",
+      "edit_history_tweet_ids": [
+        "1638790046592671744"
+      ],
+      "text": "Hazel Ackerman(n) Spring Thackeray #\u5408\u80a5\u8d44\u6e90 #\u5408\u80a5 Elmer Ralph https://t.co/YGonWtpJrl",
+      "author_id": "1600209193541287936",
+      "created_at": "2023-03-23T06:29:29.000Z"
+    },
+    {
+      "entities": {
+        "mentions": [
+          {
+            "start": 3,
+            "end": 11,
+            "username": "famewya",
+            "id": "1278859170456821760"
+          }
+        ]
+      },
+      "id": "1638790044407287810",
+      "lang": "en",
+      "conversation_id": "1638790044407287810",
+      "edit_history_tweet_ids": [
+        "1638790044407287810"
+      ],
+      "text": "RT @famewya: N : Do you love us? Do you love us?\ud83e\udd7a\nB : Love you and miss you nakrub\ud83e\udd7a\nN : Love you na mu mu\ud83e\udd7a (mu mu is a jub jub in cute way)\u2026",
+      "author_id": "1545210167427481601",
+      "created_at": "2023-03-23T06:29:28.000Z"
+    },
+    {
+      "entities": {
+        "mentions": [
+          {
+            "start": 3,
+            "end": 14,
+            "username": "cha_aeriri",
+            "id": "1154600969637810176"
+          }
+        ],
+        "urls": [
+          {
+            "start": 95,
+            "end": 118,
+            "url": "https://t.co/8WbLqZ1Gq9",
+            "expanded_url": "https://n.news.naver.com/entertain/article/410/0000928123",
+            "display_url": "n.news.naver.com/entertain/arti\u2026",
+            "unwound_url": "https://n.news.naver.com/entertain/article/410/0000928123"
+          }
+        ],
+        "annotations": [
+          {
+            "start": 70,
+            "end": 79,
+            "probability": 0.5451,
+            "type": "Organization",
+            "normalized_text": "Music Bank"
+          },
+          {
+            "start": 86,
+            "end": 90,
+            "probability": 0.5277,
+            "type": "Person",
+            "normalized_text": "Rocky"
+          },
+          {
+            "start": 120,
+            "end": 123,
+            "probability": 0.6795,
+            "type": "Person",
+            "normalized_text": "#\ubc15\ubbfc\ud601"
+          },
+          {
+            "start": 130,
+            "end": 131,
+            "probability": 0.5247,
+            "type": "Person",
+            "normalized_text": "\ud558\uc6b0"
+          },
+          {
+            "start": 134,
+            "end": 137,
+            "probability": 0.3859,
+            "type": "Person",
+            "normalized_text": "HAWW"
+          }
+        ],
+        "hashtags": [
+          {
+            "start": 120,
+            "end": 124,
+            "tag": "\ubc15\ubbfc\ud601"
+          },
+          {
+            "start": 125,
+            "end": 128,
+            "tag": "\ub77c\ud0a4"
+          },
+          {
+            "start": 129,
+            "end": 132,
+            "tag": "\ud558\uc6b0"
+          },
+          {
+            "start": 133,
+            "end": 138,
+            "tag": "HAWW"
+          }
+        ]
+      },
+      "id": "1638790042989764609",
+      "lang": "en",
+      "conversation_id": "1638790042989764609",
+      "edit_history_tweet_ids": [
+        "1638790042989764609"
+      ],
+      "text": "RT @cha_aeriri: There will be a HAWW SPECIAL STAGE tomorrow (3/24) on Music Bank with Rocky!!\n\ud83d\udd17https://t.co/8WbLqZ1Gq9\n\n#\ubc15\ubbfc\ud601 #\ub77c\ud0a4\n#\ud558\uc6b0 #HAWW\u2026",
+      "author_id": "1378371553516085258",
+      "created_at": "2023-03-23T06:29:28.000Z"
+    },
+    {
+      "entities": {
+        "mentions": [
+          {
+            "start": 3,
+            "end": 17,
+            "username": "haddis_simret",
+            "id": "1373609063779598344"
+          }
+        ],
+        "annotations": [
+          {
+            "start": 74,
+            "end": 79,
+            "probability": 0.8713,
+            "type": "Place",
+            "normalized_text": "Tigray"
+          },
+          {
+            "start": 143,
+            "end": 146,
+            "probability": 0.428,
+            "type": "Other",
+            "normalized_text": "Amha"
+          }
+        ]
+      },
+      "id": "1638790040640733190",
+      "lang": "en",
+      "conversation_id": "1638790040640733190",
+      "edit_history_tweet_ids": [
+        "1638790040640733190"
+      ],
+      "text": "RT @haddis_simret: Over 28 months, an estimated 600 k people have died in Tigray,&amp; more than 2 million have been displaced. \ud83c\uddea\ud83c\uddf9 n,\ud83c\uddea\ud83c\uddf7n,&amp; Amha\u2026",
+      "author_id": "1609855860771004420",
+      "created_at": "2023-03-23T06:29:27.000Z"
+    },
+    {
+      "entities": {
+        "mentions": [
+          {
+            "start": 3,
+            "end": 15,
+            "username": "markito0171",
+            "id": "255986116"
+          }
+        ],
+        "urls": [
+          {
+            "start": 117,
+            "end": 140,
+            "url": "https://t.co/e1XDmpyevJ",
+            "expanded_url": "https://twitter.com/markito0171/status/1638780615905378304/video/1",
+            "display_url": "pic.twitter.com/e1XDmpyevJ",
+            "media_key": "7_1638780510817140738"
+          }
+        ],
+        "hashtags": [
+          {
+            "start": 53,
+            "end": 61,
+            "tag": "Ukraine"
+          },
+          {
+            "start": 98,
+            "end": 105,
+            "tag": "Russia"
+          }
+        ]
+      },
+      "id": "1638790039357345794",
+      "lang": "en",
+      "conversation_id": "1638790039357345794",
+      "edit_history_tweet_ids": [
+        "1638790039357345794"
+      ],
+      "text": "RT @markito0171: what a battlefield looks like...\n\ud83c\uddfa\ud83c\udde6 #Ukraine ground 2023\nlittered with killed \ud83c\uddf7\ud83c\uddfa #Russia'n invaders https://t.co/e1XDmpyevJ",
+      "author_id": "984423046319616001",
+      "created_at": "2023-03-23T06:29:27.000Z"
+    }
+  ],
+  "meta": {
+    "newest_id": "1638790078226116608",
+    "oldest_id": "1638790039357345794",
+    "result_count": 20,
+    "next_token": "b26v89c19zqg8o3fqka29qppiva8ewvbqfuzdtffjeovx"
+  }
+}
