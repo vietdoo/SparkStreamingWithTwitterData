@@ -71,18 +71,22 @@
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
 	<script>
+        host = '128.199.251.39'
+        if (location.hostname === "localhost" || location.hostname === "127.0.0.1") {
+            host = 'http://127.0.0.1'
+        }
 		document.getElementById("backendRun").addEventListener("submit", function(event) {
             event.preventDefault(); 
             var tweetContent = document.getElementById("tweet").value; 
             var xhr = new XMLHttpRequest(); 
-            var url = "http://127.0.0.1:5102"; 
+            var url = host + ":5102"; 
             xhr.open("POST", url, true); 
             xhr.setRequestHeader("Content-Type", "application/json"); 
             var data = JSON.stringify({ tweet: tweetContent }); 
             xhr.send(data); 
             console.log(data)
             xhr = new XMLHttpRequest(); 
-            url = "http://127.0.0.1:5103"; 
+            url = host + ":5103"; 
             xhr.open("GET", url, true); 
             xhr.send(data); 
         });
