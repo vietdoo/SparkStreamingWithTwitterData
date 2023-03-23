@@ -80,17 +80,17 @@ ON_ACTIVE = False
 @app.route("/", methods=['POST', 'OPTION'])
 @cross_origin()
 def real():
-    send_ready = requests.get(f'http://127.0.0.1:{FLASK_PORT}/clearData')
+    send_ready = requests.get(f'{URL}:{FLASK_PORT}/clearData')
     data = request.get_json()
     prompt = data["tweet"].strip('\n')
     print(prompt)
-    TCP_IP = "127.0.0.1"
+    TCP_IP = '127.0.0.1'
     TCP_PORT = SOCKET_PORT
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
     s.bind((TCP_IP, TCP_PORT))
     s.listen(1)
-    send_ready = requests.get(f'http://127.0.0.1:{SPARK_PORT}/ready')
+    send_ready = requests.get(f'{URL}:{SPARK_PORT}/ready')
     
 
     print('Send ready command to Spark')
@@ -119,7 +119,7 @@ def real():
     except:
         print('Stopping now')
     conn.close()
-    send_stop = requests.get(f'http://127.0.0.1:{SPARK_PORT}/stop')
+    send_stop = requests.get(f'{URL}:{SPARK_PORT}/stop')
 
     return 'server running done'
 
