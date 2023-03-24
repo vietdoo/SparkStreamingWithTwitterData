@@ -5,6 +5,7 @@ from flask import Flask, jsonify, request
 from flask import render_template
 
 from config import *
+import time
 
 app = Flask(__name__)
 
@@ -14,23 +15,25 @@ categoryValues = []
 tags = {}
 
 
-def get_top_players(data, n=20):
-    top = sorted(data.items(), key=lambda x: x[1], reverse=True)[:n]
+def get_top_players(data, n = 20):
+    top = sorted(data.items(), key = lambda x: x[1], reverse = True)[:n]
     return OrderedDict(top)
 
 
 @app.route("/")
 def home():
-    return render_template('index.html', dataValues=dataValues, categoryValues=categoryValues)
+    return render_template('index.html', dataValues = dataValues, categoryValues = categoryValues)
+
+ON_QUERY = True
 
 @app.route("/clearData")
 def clearData():
-    global tags
+    global tags, dataValues, categoryValues
     tags = {}
-    
+    dataValues = []
+    categoryValues = []
+
     return 'ok'
-
-
 
 @app.route('/refreshData')
 def refresh_data():
@@ -40,8 +43,11 @@ def refresh_data():
 
 @app.route('/updateData', methods=['POST'])
 def update_data():
-    global tags, dataValues, categoryValues
 
+    global ON_QUERY
+    ON_QUERY = False
+
+    global tags, dataValues, categoryValues
     data = ast.literal_eval(request.data.decode("utf-8"))
 
     tags[data['hashtag']] = data['count']
@@ -51,11 +57,15 @@ def update_data():
     dataValues.clear()
     categoryValues = [x for x in sorted_tags]
     dataValues = [tags[x] for x in sorted_tags]
-
-    # print(f"labels received: {str(categoryValues)}")
-    # print(f"data received: {str(dataValues)}")
+   # print(dataValues, categoryValues)
     return "success", 201
+
+@app.route('/onqueryoff')
+def onqueryoff():
+    global ON_QUERY
+    ON_QUERY = True
+    return 'ok'
 
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', debug=True, port = FLASK_PORT)
+    app.run(host = '0.0.0.0', debug = True, port = FLASK_PORT)

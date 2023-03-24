@@ -22,7 +22,7 @@ os.environ["SPARK_LOCAL_HOSTNAME"] = "localhost"
 
 
 def send_data(tags: dict) -> None:
-    url = f'http://localhost:{FLASK_PORT}/updateData'
+    url = f'{URL}:{FLASK_PORT}/updateData'
     print(tags)
     response = requests.post(url, json=tags)
 
@@ -58,7 +58,7 @@ def new():
     spark = SparkSession.builder.appName("vietdoo twitter").getOrCreate()
     sc = spark.sparkContext
     sc.setLogLevel("OFF")
-    lines = spark.readStream.format("socket").option("host", "127.0.0.1").option("port", SOCKET_PORT).load()
+    lines = spark.readStream.format("socket").option("host", '127.0.0.1').option("port", SOCKET_PORT).load()
     words = lines.select(explode(split(lines.value, " ")).alias("hashtag"))
     wordCounts = words.groupBy("hashtag").count()
     query = wordCounts.writeStream.foreach(process_row).outputMode('Update').start()

@@ -16,15 +16,13 @@ from flask_cors import CORS, cross_origin
 
 from config import *
 
-#os.system('fuser -k 2999/tcp')
 
 app = Flask(__name__)
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
 
-
-def create_url(keyword, end_date, next_token=None, max_results=10):
+def create_url(keyword, end_date, max_results=10):
     search_url = "https://api.twitter.com/2/tweets/search/recent"
     query_params = {'query': keyword,
                     'max_results': max_results,
@@ -34,24 +32,22 @@ def create_url(keyword, end_date, next_token=None, max_results=10):
 
 def get_response(url, headers, params):
     response = requests.get(url, headers = headers, params = params)
-    #print(f"Endpoint Response Code: {str(response.status_code)}")
     if response.status_code != 200:
         raise Exception(response.status_code, response.text)
     return response.json()
 
-def get_tweet_data(next_token=None, query='corona', max_results=20):
+def get_tweet_data(query='corona', max_results=20):
     bearer_token = BEAR_TOKEN
     headers = {"Authorization": f"Bearer {bearer_token}"}
     keyword = f"{query} has:hashtags"
     end_time = f"{str(date.today() - timedelta(days=6))}T00:00:00.000Z"
-    url: tuple = create_url(keyword, end_time, next_token=next_token, max_results=20)
-    json_response = get_response(url=url[0], headers=headers, params=url[1])
+    url: tuple = create_url(keyword, end_time, max_results=20)
+    json_response = get_response(url = url[0], headers = headers, params = url[1])
     return json_response
 
 def get_tag(tag_info: dict):
     tag = str(tag_info['tag']).strip()
     hashtag = str('#' + tag + '\n')
-    #print(f"Hashtag: {hashtag.strip()}")
     return hashtag
 
 def send_tweets_to_spark(http_resp, tcp_connection):
@@ -60,7 +56,6 @@ def send_tweets_to_spark(http_resp, tcp_connection):
         try:
             hashtag_list = tweet['entities']['hashtags']
             for tag_info in hashtag_list:
-                # sending only hashtag
                 hashtag = get_tag(tag_info)
                 #print(hashtag)
                 tcp_connection.send(hashtag.encode("utf-8"))
@@ -80,10 +75,17 @@ ON_ACTIVE = False
 @app.route("/", methods=['POST', 'OPTION'])
 @cross_origin()
 def real():
-    send_ready = requests.get(f'{URL}:{FLASK_PORT}/clearData')
+    #Send to Flask
+    try:
+        requests.get(f'{URL}:{FLASK_PORT}/clearData', timeout = 0.0000000001)
+    except requests.exceptions.ReadTimeout: 
+        pass
+    #send_ready = requests.get()
+    #print(f'request flask {URL}:{FLASK_PORT} clear data: {send_ready.status_code}')
     data = request.get_json()
     prompt = data["tweet"].strip('\n')
     print(prompt)
+
     TCP_IP = '127.0.0.1'
     TCP_PORT = SOCKET_PORT
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -108,8 +110,6 @@ def real():
                 try:
                     print(query)
                     resp = get_tweet_data(query = query, max_results = max_results)
-                    
-                    #print(resp)
                     send_tweets_to_spark(http_resp = resp, tcp_connection = conn)
                     time.sleep(sleep_timer)
                 except KeyboardInterrupt:
@@ -120,7 +120,9 @@ def real():
         print('Stopping now')
     conn.close()
     send_stop = requests.get(f'{URL}:{SPARK_PORT}/stop')
-
+    print(f'request spark {URL}:{SPARK_PORT} stop streaming: {send_stop.status_code}')
+    send_ready = requests.get(f'{URL}:{FLASK_PORT}/onqueryoff')
+    print(f'request flask {URL}:{FLASK_PORT} query off: {send_ready.status_code}')
     return 'server running done'
 
 
